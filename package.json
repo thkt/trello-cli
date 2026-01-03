@@ -1,0 +1,30 @@
+{
+  "name": "trello-cli",
+  "version": "0.1.0",
+  "description": "Bun で動作するシンプルな Trello CLI ツール",
+  "type": "module",
+  "bin": {
+    "trello": "./trello.ts"
+  },
+  "scripts": {
+    "start": "bun run trello.ts"
+  },
+  "keywords": [
+    "trello",
+    "cli",
+    "bun"
+  ],
+  "author": "thkt",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thkt/trello-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thkt/trello-cli/issues"
+  },
+  "homepage": "https://github.com/thkt/trello-cli#readme",
+  "engines": {
+    "bun": ">=1.0.0"
+  }
+}
