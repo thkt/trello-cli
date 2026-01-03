@@ -7,7 +7,8 @@
     "trello": "./trello.ts"
   },
   "scripts": {
-    "start": "bun run trello.ts"
+    "start": "bun run trello.ts",
+    "test": "bun test"
   },
   "keywords": [
     "trello",
@@ -26,5 +27,8 @@
   "homepage": "https://github.com/thkt/trello-cli#readme",
   "engines": {
     "bun": ">=1.0.0"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.3.5"
   }
 }

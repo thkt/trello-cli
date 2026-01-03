@@ -36,6 +36,9 @@ trello cards <board-id>
 
 # カード詳細（JSON）
 trello card <card-id>
+
+# カード検索
+trello search <キーワード>
 ```
 
 ## Tips
